@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "arXiv to Notion",
+    "version": "0.1.0",
+    "description": "Save an arXiv link to a Notion database",
+    "background": {
+        "service_worker": "background.js"
+      },
+    "content_scripts": [{
+      "css": ["style.css"],
+      "js": ["content.js"],
+      "matches": ["https://arxiv.org/abs/*"]
+    }],
+    "host_permissions": [
+        "https://api.notion.com/v1/pages/*"
+    ]
+  }
