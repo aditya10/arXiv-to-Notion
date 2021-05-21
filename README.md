@@ -12,3 +12,4 @@ let keys = {
     databaseid: "xxxxxxxxxxxxx"
 }
 ```
+4. Go to any paper on arXiv and you will find a notion button under Bookmarks.
